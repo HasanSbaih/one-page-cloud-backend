@@ -1,0 +1,392 @@
+[
+  {
+    "category": "Analytics",
+    "resources": [
+      {
+        "name": "Log Analytics Workspaces",
+        "icon": "00009-icon-service-Log-Analytics-Workspaces.svg",
+        "description": "Azure Log Analytics Workspaces is a service in Azure Monitor that collects, aggregates, and serves log and telemetry data from various sources. It provides a centralized platform to analyze and monitor operational data, offering search capabilities and integrations with other Azure services."
+      }
+    ]
+  },
+  {
+    "category": "ai + machine learning",
+    "resources": [
+      {
+        "name": "Genomics",
+        "icon": "00031-icon-service-Genomics.svg",
+        "description": "Azure Genomics offers cloud capabilities for genome sequencing and analysis. It allows researchers to use genomic data to improve diagnosis, treatment, and prevention of diseases."
+      },
+      {
+        "name": "Computer Vision",
+        "icon": "00792-icon-service-Computer-Vision.svg",
+        "description": "Azure Computer Vision provides algorithms to process images and return information based on the visual features. It can analyze visual content in different ways based on what the user needs."
+      },
+      {
+        "name": "Custom Vision",
+        "icon": "00793-icon-service-Custom-Vision.svg",
+        "description": "Azure Custom Vision allows developers to build, deploy, and improve their own image classifiers. It is a customizable version of the computer vision service."
+      },
+      {
+        "name": "Face APIs",
+        "icon": "00794-icon-service-Face-APIs.svg",
+        "description": "Azure Face API allows developers to detect and recognize human faces in images. It provides capabilities such as facial verification, similar face searching, and face grouping."
+      },
+      {
+        "name": "Content Moderators",
+        "icon": "00795-icon-service-Content-Moderators.svg",
+        "description": "Azure Content Moderator provides content moderation services to automatically check content for potentially offensive or undesirable material."
+      },
+      {
+        "name": "Personalizers",
+        "icon": "00796-icon-service-Personalizers.svg",
+        "description": "Azure Personalizer is a cloud-based service that provides personalized content and experiences for users based on their preferences and behavior."
+      },
+      {
+        "name": "Speech Services",
+        "icon": "00797-icon-service-Speech-Services.svg",
+        "description": "Azure Speech Service provides capabilities of converting spoken language into text and vice versa. It supports speech-to-text, text-to-speech, and speech translation."
+      },
+      {
+        "name": "QnA Makers",
+        "icon": "00799-icon-service-QnA-Makers.svg",
+        "description": "Azure QnA Maker allows developers to create a question and answer layer for their data. It helps in building, training, and publishing a simple question and answer bot."
+      },
+      {
+        "name": "Translator Text",
+        "icon": "00800-icon-service-Translator-Text.svg",
+        "description": "Azure Translator Text is a cloud-based machine translation service that can be used to translate text in near real-time across multiple languages."
+      },
+      {
+        "name": "Language Understanding",
+        "icon": "00801-icon-service-Language-Understanding.svg",
+        "description": "Azure Language Understanding (LUIS) allows applications to understand user commands contextually. It provides tools to build natural language understanding into apps, bots, and IoT devices."
+      },
+      {
+        "name": "Immersive Readers",
+        "icon": "00812-icon-service-Immersive-Readers.svg",
+        "description": "Azure Immersive Reader is a tool that helps users read and understand text. It provides features like reading aloud, translating, and focus mode."
+      },
+      {
+        "name": "Anomaly Detector",
+        "icon": "00814-icon-service-Anomaly-Detector.svg",
+        "description": "Azure Anomaly Detector allows users to monitor and detect abnormalities in their time series data without having to know machine learning. It identifies potential problems as soon as they happen."
+      },
+      {
+        "name": "Form Recognizers",
+        "icon": "00819-icon-service-Form-Recognizers.svg",
+        "description": "Azure Form Recognizer is a service that uses machine learning to identify and extract key-value pairs and table data from form documents."
+      },
+      {
+        "name": "Metrics Advisor",
+        "icon": "02409-icon-service-Metrics-Advisor.svg",
+        "description": "Azure Metrics Advisor is a performance monitoring tool that uses AI to monitor metrics and diagnose issues in real time."
+      },
+      {
+        "name": "Language",
+        "icon": "02876-icon-service-Language.svg",
+        "description": "Azure Language is a natural language processing service that provides sentiment analysis, key phrase extraction, language detection, and more."
+      },
+      {
+        "name": "Cognitive Search",
+        "icon": "10044-icon-service-Cognitive-Search.svg",
+        "description": "Azure Cognitive Search is a search-as-a-service cloud solution that uses AI to provide more intelligent search capabilities for apps and websites."
+      },
+      {
+        "name": "Cognitive Services",
+        "icon": "10162-icon-service-Cognitive-Services.svg",
+        "description": "Azure Cognitive Services are APIs, SDKs, and services available to help developers build intelligent applications without having direct AI or data science skills."
+      },
+      {
+        "name": "Genomics Accounts",
+        "icon": "10164-icon-service-Genomics-Accounts.svg",
+        "description": "Azure Genomics Accounts help manage and configure genomics workloads on Azure."
+      },
+      {
+        "name": "Bot Services",
+        "icon": "10165-icon-service-Bot-Services.svg",
+        "description": "Azure Bot Service provides an integrated environment to build, test, and deploy intelligent bots. It integrates with various channels and is backed by Microsoft's Bot Framework."
+      }
+    ]
+  },
+  {
+    "category": "App Services",
+    "resources": [
+      {
+        "name": "App Service Plans",
+        "icon": "00046-icon-service-App-Service-Plans.svg",
+        "description": "Azure App Service Plans define the region (Datacenter) of the physical server where your web app will be hosted and the amount of storage, RAM, and CPU the app can use. Different plans offer different resources and features such as custom domains, SSL, scaling, etc."
+      },
+      {
+        "name": "App Service Certificates",
+        "icon": "00049-icon-service-App-Service-Certificates.svg",
+        "description": "Azure App Service Certificates provides a way to easily create, manage, and bind SSL certificates to Azure App Services. It simplifies the process of purchasing and maintaining the lifecycle of SSL certificates."
+      },
+      {
+        "name": "App Service Domains",
+        "icon": "00050-icon-service-App-Service-Domains.svg",
+        "description": "Azure App Service Domains provide a way for users to buy and manage custom domains within the Azure portal, making it easier to integrate them with Azure App Services."
+      },
+      {
+        "name": "App Services",
+        "icon": "10035-icon-service-App-Services.svg",
+        "description": "Azure App Services is a fully managed platform for building, deploying, and scaling web apps. It provides powerful cloud-based, highly scalable web hosting solutions that allow you to build and host web applications in the programming language of your choice without managing infrastructure."
+      },
+      {
+        "name": "Cognitive Search",
+        "icon": "10044-icon-service-Cognitive-Search.svg",
+        "description": "Azure Cognitive Search is a search-as-a-service cloud solution that uses AI to provide more intelligent search capabilities for apps and websites. It offers features such as semantic search and integrations with cognitive services."
+      },
+      {
+        "name": "App Service Environments",
+        "icon": "10047-icon-service-App-Service-Environments.svg",
+        "description": "Azure App Service Environments offer a fully isolated and dedicated environment for securely running App Service apps at high scale. It's essentially a private and isolated environment dedicated to a single customer."
+      }
+    ]
+  },
+  {
+    "category": "Compute",
+    "resources": [
+      {
+        "name": "Managed Service Fabric",
+        "icon": "02370-icon-service-Managed-Service-Fabric.svg",
+        "description": "Azure Managed Service Fabric is a distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers."
+      },
+      {
+        "name": "Virtual Machine",
+        "icon": "10021-icon-service-Virtual-Machine.svg",
+        "description": "Azure Virtual Machines (VMs) allow users to deploy virtualized computing resources on the cloud. They can be used to run applications, host infrastructure, and more."
+      },
+      {
+        "name": "Kubernetes Services",
+        "icon": "10023-icon-service-Kubernetes-Services.svg",
+        "description": "Azure Kubernetes Service (AKS) is a managed Kubernetes service that simplifies deploying, managing, and scaling containerized applications using Kubernetes."
+      },
+      {
+        "name": "Mesh Applications",
+        "icon": "10024-icon-service-Mesh-Applications.svg",
+        "description": "Azure Mesh Applications refer to services and solutions that enable the deployment and management of microservices-based applications, typically leveraging Service Mesh architectures for communication."
+      },
+      {
+        "name": "Availability Sets",
+        "icon": "10025-icon-service-Availability-Sets.svg",
+        "description": "Azure Availability Sets are a strategy to ensure that VM resources are spread across multiple isolated hardware nodes in a data center. This ensures that if a hardware or software failure occurs, only a subset of VMs are impacted."
+      },
+      {
+        "name": "Disks Snapshots",
+        "icon": "10026-icon-service-Disks-Snapshots.svg",
+        "description": "Azure Disk Snapshots are backups of virtual machine disks that can be used to restore VMs in the event of data loss or failure."
+      },
+      {
+        "name": "Function Apps",
+        "icon": "10029-icon-service-Function-Apps.svg",
+        "description": "Azure Function Apps is a serverless compute service that enables users to run event-driven code without having to manage infrastructure."
+      },
+      {
+        "name": "VM Scale Sets",
+        "icon": "10034-icon-service-VM-Scale-Sets.svg",
+        "description": "Azure VM Scale Sets allow for the creation and management of a group of identical, load-balanced VMs. They can automatically increase or decrease the number of VM instances in response to demand or a defined schedule."
+      },
+      {
+        "name": "App Services",
+        "icon": "10035-icon-service-App-Services.svg",
+        "description": "Azure App Services is a platform for hosting web apps, RESTful APIs, and mobile app backends. It provides auto-scaling and high availability, supports both Windows and Linux, and enables automated deployments."
+      },
+      {
+        "name": "Service Fabric Clusters",
+        "icon": "10036-icon-service-Service-Fabric-Clusters.svg",
+        "description": "Azure Service Fabric Clusters is a platform for microservices that provides a runtime to build and operate always-on, scalable, and distributed apps. It provides orchestration and management capabilities for microservices."
+      },
+      {
+        "name": "Container Instances",
+        "icon": "10104-icon-service-Container-Instances.svg",
+        "description": "Azure Container Instances (ACI) offers the fastest and simplest way to run a container in Azure. It allows for the deployment of containers without managing VMs."
+      },
+      {
+        "name": "Azure Spring Apps",
+        "icon": "10370-icon-service-Azure-Spring-Apps.svg",
+        "description": "Azure Spring Cloud is a fully managed service for Spring Boot apps. It lets developers build, deploy, and scale applications without managing the infrastructure."
+      }
+    ]
+  },
+  {
+    "category": "Databases",
+    "resources": [
+      {
+        "name": "Azure SQL",
+        "icon": "02390-icon-service-Azure-SQL.svg",
+        "description": "Azure SQL is a managed relational database service provided by Microsoft Azure. It offers a range of database services, including those for mission-critical workloads, applications, and data warehouses."
+      },
+      {
+        "name": "Azure Database PostgreSQL Server Group",
+        "icon": "02827-icon-service-Azure-Database-PostgreSQL-Server-Group.svg",
+        "description": "Azure Database for PostgreSQL Server Group provides fully managed, enterprise-ready community PostgreSQL databases as a service. It offers built-in high availability, automated backups, and scaling of resources on the fly."
+      },
+      {
+        "name": "Azure Cosmos DB",
+        "icon": "10121-icon-service-Azure-Cosmos-DB.svg",
+        "description": "Azure Cosmos DB is a multi-model, globally distributed database service designed for large-scale and distributed applications. It provides turnkey global distribution, elastic scaling, and multi-model support."
+      },
+      {
+        "name": "Azure Database MySQL Server",
+        "icon": "10122-icon-service-Azure-Database-MySQL-Server.svg",
+        "description": "Azure Database for MySQL provides fully managed, enterprise-ready community MySQL database as a service. It offers built-in high availability, automated backups, and scaling of resources on the fly."
+      },
+      {
+        "name": "Azure Database MariaDB Server",
+        "icon": "10123-icon-service-Azure-Database-MariaDB-Server.svg",
+        "description": "Azure Database for MariaDB is a managed database service that offers built-in high availability, automated backups, and scaling. It is based on the MariaDB community edition."
+      },
+      {
+        "name": "Azure Database PostgreSQL Server",
+        "icon": "10131-icon-service-Azure-Database-PostgreSQL-Server.svg",
+        "description": "Azure Database for PostgreSQL provides a managed database service with built-in high availability, automated backups, and the ability to scale resources on the fly. It's based on the community edition of PostgreSQL."
+      },
+      {
+        "name": "Azure Database Migration Services",
+        "icon": "10133-icon-service-Azure-Database-Migration-Services.svg",
+        "description": "Azure Database Migration Service is a tool that helps you simplify, guide, and automate your database migration to Azure. It supports migrations from various database sources to Azure data platforms."
+      },
+      {
+        "name": "Cache Redis",
+        "icon": "10137-icon-service-Cache-Redis.svg",
+        "description": "Azure Cache for Redis provides a managed in-memory data store based on the open-source Redis cache. It improves application performance by offloading data and processing from the main database."
+      },
+      {
+        "name": "Azure Data Explorer Clusters",
+        "icon": "10145-icon-service-Azure-Data-Explorer-Clusters.svg",
+        "description": "Azure Data Explorer is a fast, fully managed data analytics service for real-time analysis of large volumes of streaming data. Clusters in Azure Data Explorer are the compute and storage resources."
+      }
+    ]
+  },
+  {
+    "category": "Integration",
+    "resources": [
+      {
+        "name": "Event Hubs",
+        "icon": "00039-icon-service-Event-Hubs.svg",
+        "description": "Azure Event Hubs is a big data streaming platform and event ingestion service. It can receive and process millions of events per second, making it useful for telemetry and event-driven architectures."
+      },
+      {
+        "name": "Azure Service Bus",
+        "icon": "10836-icon-service-Azure-Service-Bus.svg",
+        "description": "Azure Service Bus is a fully managed enterprise integration message broker. It's capable of message-based communication between applications and services in the cloud, on-premises, or both."
+      }
+    ]
+  },
+  {
+    "category": "IoT",
+    "resources": [
+      {
+        "name": "Stream Analytics Jobs",
+        "icon": "00042-icon-service-Stream-Analytics-Jobs.svg",
+        "description": "Azure Stream Analytics is a real-time data stream processing service. It can analyze and process vast amounts of fast-streaming data and transform this data into actionable insights."
+      },
+      {
+        "name": "Digital Twins",
+        "icon": "01030-icon-service-Digital-Twins.svg",
+        "description": "Azure Digital Twins is a platform that enables the creation of knowledge graphs based on digital models of entire environments. It's used to model the relationships and interactions between people, places, and devices."
+      },
+      {
+        "name": "Time Series Insights Environments",
+        "icon": "10181-icon-service-Time-Series-Insights-Environments.svg",
+        "description": "Azure Time Series Insights is an analytics service that provides a comprehensive view of IoT data, offering storage, visualization, and advanced analytics capabilities."
+      },
+      {
+        "name": "IoT Hub",
+        "icon": "10182-icon-service-IoT-Hub.svg",
+        "description": "Azure IoT Hub is a managed service that acts as a central message hub for bi-directional communication between IoT applications and the devices they manage."
+      },
+      {
+        "name": "Time Series Insights Event Sources",
+        "icon": "10188-icon-service-Time-Series-Insights-Event-Sources.svg",
+        "description": "Azure Time Series Insights Event Sources are the input data streams that feed into Time Series Insights for analysis. They define where the data is coming from."
+      },
+      {
+        "name": "Time Series Data Sets",
+        "icon": "10198-icon-service-Time-Series-Data-Sets.svg",
+        "description": "Azure Time Series Data Sets represent collections of data in the Time Series Insights service that are used for analysis and visualization."
+      },
+      {
+        "name": "Device Provisioning Services",
+        "icon": "10369-icon-service-Device-Provisioning-Services.svg",
+        "description": "Azure Device Provisioning Service helps automate the process of provisioning and managing millions of IoT devices in a secure and scalable manner."
+      }
+    ]
+  },
+  {
+    "category": "Storage",
+    "resources": [
+      {
+        "name": "Storage Accounts",
+        "icon": "10086-icon-service-Storage-Accounts.svg",
+        "description": "Azure Storage Accounts provide a unique namespace to store and access data objects like blobs, files, queues, tables, and disks."
+      },
+      {
+        "name": "Data Lake Storage Gen1",
+        "icon": "10090-icon-service-Data-Lake-Storage-Gen1.svg",
+        "description": "Azure Data Lake Storage Gen1 is a hyper-scale repository for big data analytic workloads, allowing you to run big data analytics and provides massively parallel processing support."
+      }
+    ]
+  },
+  {
+    "category": "Web",
+    "resources": [
+      {
+        "name": "App Service Plans",
+        "icon": "00046-icon-service-App-Service-Plans.svg",
+        "description": "Azure App Service Plans define the region (Datacenter) of the physical server where your web app will be hosted and the amount of storage, RAM, and CPU the app can use. Different plans offer different resources and features such as custom domains, SSL, scaling, etc."
+      },
+      {
+        "name": "App Service Certificates",
+        "icon": "00049-icon-service-App-Service-Certificates.svg",
+        "description": "Azure App Service Certificates provides a way to easily create, manage, and bind SSL certificates to Azure App Services. It simplifies the process of purchasing and maintaining the lifecycle of SSL certificates."
+      },
+      {
+        "name": "App Service Domains",
+        "icon": "00050-icon-service-App-Service-Domains.svg",
+        "description": "Azure App Service Domains provide a way for users to buy and manage custom domains within the Azure portal, making it easier to integrate them with Azure App Services."
+      },
+      {
+        "name": "Static Apps",
+        "icon": "01007-icon-service-Static-Apps.svg",
+        "description": "Azure Static Web Apps is a service that automatically builds and deploys full stack web apps from a GitHub or Azure DevOps repository."
+      },
+      {
+        "name": "App Services",
+        "icon": "10035-icon-service-App-Services.svg",
+        "description": "Azure App Services is a platform for hosting web apps, RESTful APIs, and mobile app backends. It provides auto-scaling and high availability, supports both Windows and Linux, and enables automated deployments."
+      },
+      {
+        "name": "API Management Services",
+        "icon": "10042-icon-service-API-Management-Services.svg",
+        "description": "Azure API Management is a turnkey solution for publishing, managing, securing, and analyzing APIs in Azure, allowing developers to create consistent and modern API gateways for existing back-end services."
+      },
+      {
+        "name": "Cognitive Search",
+        "icon": "10044-icon-service-Cognitive-Search.svg",
+        "description": "Azure Cognitive Search is a search-as-a-service cloud solution that uses AI to provide more intelligent search capabilities for apps and websites. It offers features such as semantic search and integrations with cognitive services."
+      },
+      {
+        "name": "App Service Environments",
+        "icon": "10047-icon-service-App-Service-Environments.svg",
+        "description": "Azure App Service Environments offer a fully isolated and dedicated environment for securely running App Service apps at high scale. It's essentially a private and isolated environment dedicated to a single customer."
+      },
+      {
+        "name": "Front Door and CDN Profiles",
+        "icon": "10073-icon-service-Front-Door-and-CDN-Profiles.svg",
+        "description": "Azure Front Door offers a scalable and secure entry point for fast delivery of your global web applications. Azure CDN Profiles represent the configuration of the Azure Content Delivery Network to deliver high-bandwidth content."
+      },
+      {
+        "name": "Azure Media Service",
+        "icon": "10309-icon-service-Azure-Media-Service.svg",
+        "description": "Azure Media Services provides broadcasting, video on demand, and streaming capabilities. It allows for encoding, content protection, and live streaming of multimedia content."
+      },
+      {
+        "name": "Azure Spring Apps",
+        "icon": "10370-icon-service-Azure-Spring-Apps.svg",
+        "description": "Azure Spring Cloud is a fully managed service for Spring Boot apps. It lets developers build, deploy, and scale applications without managing the infrastructure."
+      }
+    ]
+  }
+]

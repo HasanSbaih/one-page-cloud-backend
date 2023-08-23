@@ -1,5 +1,5 @@
 import express from 'express';
-import mongoose from 'mongoose';
+// import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
 import workspaceRoutes from './routes/workspaceRoutes';
@@ -18,7 +18,7 @@ if (!MONGO_URI) {
     process.exit(1);
 }
 
-mongoose.connect(MONGO_URI);
+// mongoose.connect(MONGO_URI);
 
 app.use(express.json());
 app.use('/workspace', workspaceRoutes);

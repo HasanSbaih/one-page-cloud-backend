@@ -1,17 +1,22 @@
 
-// import fs from "fs";
+import fs from "fs";
 // import path from "path";
 // import dotenv from "dotenv";
 
 import { Request, Response } from 'express';
+import { generateWorkspace } from "../models/workspaceGenerator";
 
 
 // import { createLanguageModel, createJsonTranslator } from "typechat";
 
 export const buildWorkspace = async (req: Request, res: Response) => {
-    console.log(req)
-    const response = "{\r\n  \"resource_group_name\": \"resource-group-1\",\r\n  \"resource_group_location\": \"westeurope\",\r\n  \"resources\": [\r\n    {\r\n\"index\": 1,\r\n\"type\": \"dps\",\r\n\"arguments\": {\r\n  \"name\": \"dps1\",\r\n  \"azure_location\": \"westeurope\",\r\n  \"sku\": { \"name\": \"s1\", \"capacity\": \"1\" }\r\n}\r\n },\r\n {\r\n\"index\": 2,\r\n\"type\": \"iothub\",\r\n\"arguments\": {\r\n  \"name\": \"iothub1\",\r\n  \"azure_location\": \"westeurope\",\r\n  \"sku\": { \"name\": \"s1\", \"capacity\": \"1\" }\r\n}\r\n }\r\n  ],\r\n  \"Links\": [\r\n {\r\n\"from\": 1,\r\n\"operation\": \"Linked to iothub\",\r\n\"to\": 2 \r\n}\r\n  ]\r\n}"
-    res.setHeader('Content-Type', 'application/json');
+    const summary: string = req.body.description;
+    const jsonContent = fs.readFileSync("resources.json", 'utf-8');
+    const resources = JSON.parse(jsonContent);
+
+
+
+    const response = await generateWorkspace(summary,resources);
     res.send(response);
 };
 

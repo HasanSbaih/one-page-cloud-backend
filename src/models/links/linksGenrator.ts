@@ -17,7 +17,8 @@ const translator = createJsonTranslator<ResourcesLinksList>(model, schema, "Reso
 
 export const generateResourcesLinks = async (source: String, destination: String) => {
     try {
-        const prompt = `When trying to link ${source} with ${destination} in Azure`;
+        const prompt = `source: ${source}
+        destination: ${destination}`;
 
         const response = await translator.translate(prompt);
 

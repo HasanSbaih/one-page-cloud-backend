@@ -1,14 +1,17 @@
 import express from 'express';
-// import mongoose from 'mongoose';
+import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 
 import workspaceRoutes from './routes/workspaceRoutes';
 import aiRoutes from './routes/aiRoutes';
 import resourcesRoutes from './routes/resourcesRoutes';
+import cors from 'cors';
+
 
 dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
+app.use(cors());
 
 
 const MONGO_URI = 'mongodb://localhost:32768/mojojojo';
@@ -18,7 +21,7 @@ if (!MONGO_URI) {
     process.exit(1);
 }
 
-// mongoose.connect(MONGO_URI);
+mongoose.connect(MONGO_URI);
 
 app.use(express.json());
 app.use('/workspace', workspaceRoutes);

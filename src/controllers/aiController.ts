@@ -2,6 +2,7 @@
 import fs from "fs";
 // import path from "path";
 // import dotenv from "dotenv";
+import AzureArchitectureDiagramWorkspace from './../models/AzureArchitectureDiagramWorkspaceSchema';
 
 import { Request, Response } from 'express';
 import { generateWorkspace } from "../models/workspaceGenerator";
@@ -18,17 +19,28 @@ export const buildWorkspace = async (req: Request, res: Response) => {
 
 
 
-    const response = await generateWorkspace(summary,resources);
+    const response = await generateWorkspace(summary, resources);
     res.send(response);
 };
 
 
 export const generateScript = async (req: Request, res: Response) => {
-    
-    const graph: string = JSON.stringify(req.body.graph);
-    const language: string = req.body.language;
-    const response = await generateCloudScript(graph,language);
 
-    res.setHeader('Content-Type', 'application/json');
-    res.send(response);
+    try {
+        const workspace = await AzureArchitectureDiagramWorkspace.findById(req.params.id);
+
+        if (!workspace) {
+            return res.status(404).send();
+        }
+
+        const graph: string = JSON.stringify(workspace);
+        const language: string | undefined = req.query.language as string;
+        const response = await generateCloudScript(graph, language);
+
+        res.setHeader('Content-Type', 'application/json');
+        res.status(200).send(response);
+    } catch (error) {
+        res.status(500).send(error);
+    }
+
 };

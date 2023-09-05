@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 
 
-const MONGO_URI = 'mongodb://localhost:32768/mojojojo';
+const MONGO_URI = process.env.MONGO_URI;
 
 if (!MONGO_URI) {
     console.error('MONGO_URI is not defined in .env');

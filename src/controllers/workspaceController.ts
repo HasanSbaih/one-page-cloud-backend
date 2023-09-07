@@ -8,7 +8,6 @@ import AzureArchitectureDiagramWorkspace, { IAzureArchitectureDiagramWorkspace }
 
 
 export const getWorkspace = async (req: Request, res: Response) => {
-    console.log(req);
     try {
         const workspace = await AzureArchitectureDiagramWorkspace.find();
         if (!workspace) {
@@ -34,7 +33,7 @@ export const getWorkspaceById = async (req: Request, res: Response) => {
 
 export const createWorkspace = async (req: Request, res: Response) => {
     try {
-        const workspace = new AzureArchitectureDiagramWorkspace(req.body as IAzureArchitectureDiagramWorkspace);
+        const workspace =  new AzureArchitectureDiagramWorkspace(req.body as IAzureArchitectureDiagramWorkspace);
         await workspace.save();
         res.status(201).send(workspace);
     } catch (error) {

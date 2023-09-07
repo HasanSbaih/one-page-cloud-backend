@@ -15,6 +15,7 @@ RUN npm install -g typescript
 COPY . .
 
 COPY src/.env ./dist/.env
+COPY src/controllers/resources.json ./dist/controllers/resources.json
 
 ENV PORT=80
 # Step 6: Compile TypeScript to JavaScript

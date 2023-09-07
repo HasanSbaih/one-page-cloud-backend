@@ -12,9 +12,9 @@ import { Request, Response } from 'express';
 
 //loads resources from json file
 export const getResources = async (req: Request, res: Response) => {
-
-    console.log(req)
-    const jsonContent = fs.readFileSync(path.join(__dirname, "\\resources.json"), 'utf-8');
+    const filePath = path.join(__dirname, "/resources.json")
+    console.log(filePath);
+    const jsonContent = fs.readFileSync(filePath, 'utf-8');
     const jsonData = JSON.parse(jsonContent);
 
     res.send(jsonData);

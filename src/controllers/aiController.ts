@@ -1,6 +1,6 @@
 
 import fs from "fs";
-// import path from "path";
+import path from "path";
 // import dotenv from "dotenv";
 import AzureArchitectureDiagramWorkspace from './../models/AzureArchitectureDiagramWorkspaceSchema';
 
@@ -14,10 +14,8 @@ import { generateCloudScript } from "../models/scripts/ScriptsGenerator";
 
 export const buildWorkspace = async (req: Request, res: Response) => {
     const summary: string = req.body.description;
-    const jsonContent = fs.readFileSync("resources.json", 'utf-8');
+    const jsonContent = fs.readFileSync(path.join(__dirname, "/resources.json"), 'utf-8');
     const resources = JSON.parse(jsonContent);
-
-
 
     const response = await generateWorkspace(summary, resources);
     res.send(response);
